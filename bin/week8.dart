@@ -7,4 +7,5 @@ void main(List<String> arguments) {
   }
 
   print(mul(1, 56));
+  print(mul(78, 1342));
 }
