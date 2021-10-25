@@ -4,7 +4,7 @@ void main(List<String> arguments) {
   // print(task3(4, 2, 2));
   print(task4([2, 2, 3, 2, 5, 5]));
 
-  ///not completed, couldn't find solution for
+  ///not completed, couldn't find solution for last example
 }
 
 double task1(double a) {
