@@ -2,7 +2,7 @@ void main(List<String> arguments) {
   // print(task1(5));
   // print(task2(3, 5));
   // print(task3(4, 2, 2));
-  print(task4([2, 2, 3, 2, 5, 5]));
+  print(task4([2, 1, 3, 2, 7, 5, 5]));
 
   ///not completed, couldn't find solution for last example
 }
@@ -25,14 +25,14 @@ double task3(double a, double b, double c) {
 }
 
 String task4(List list1) {
-  for (int i = 0; i < list1.length; i++) {
-    if (list1[i] == list1[i + 1]) {
-      print("da");
-
+  String result = "";
+  for (int i = 1; i < list1.length; i++) {
+    if (list1[i] == list1[i - 1]) {
+      result = "da";
       break;
     } else {
-      print("net");
+      result = "net";
     }
   }
-  return ("");
+  return result;
 }
